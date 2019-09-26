@@ -1,8 +1,12 @@
-import React from "react";
-import Header from "../components/Header";
+import React, { Fragment } from "react";
+import Header from "../components/Header/Header";
 
 const index = () => {
-  return <Header />;
+  return (
+    <Fragment>
+      <Header />
+    </Fragment>
+  );
 };
 
 export default index;

@@ -1,0 +1,52 @@
+.head {
+  /* border: 3px solid red; */
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px 0px 50px;
+}
+
+.first-part {
+  /* border: 3px solid blue; */
+  display: flex;
+}
+
+.first-part button,
+.second-part button {
+  border: none;
+  outline: none;
+  /* border: 3px solid red; */
+  width: 100px;
+  background-color: transparent;
+}
+
+.second-part button {
+  height: 50px;
+  margin: auto;
+  font-weight: 700;
+  padding: 20px 0px 20px 0px;
+  border-radius: 3px;
+}
+
+
+.first-part button a {
+  font-size: 16px;
+  color: #141c3a;
+}
+
+.firstpart-content img {
+  width: 200px;
+}
+
+.second-part {
+  /* border: 3px solid blue; */
+  display: flex;
+}
+
+/* .second-part button a {
+  border: 3px solid red;
+  /* font-size: 12px; 
+} */

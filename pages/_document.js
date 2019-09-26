@@ -15,6 +15,19 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head />
+        <style>
+          {`
+              * {
+                font-family: 'Open Sans', sans-serif;
+                box-sizing : border-box ;
+                margin: 0;
+                padding: 0;
+              }
+              a{
+                text-decoration : none ;
+              }
+            `}
+        </style>
         <body>
           <Main />
           <NextScript />
